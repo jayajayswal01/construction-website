@@ -1,0 +1,144 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 4rem 2rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footerSection h3 {
+  color: #DCC5B2;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footerSection h4 {
+  color: #DCC5B2;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footerSection p {
+  color: #bbb;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.socialLinks a:hover {
+  background-color: #DCC5B2;
+  transform: translateY(-3px);
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footerSection ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerSection ul li a:hover {
+  color: #DCC5B2;
+  padding-left: 5px;
+}
+
+.contactInfo li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #bbb;
+}
+
+.contactInfo li i {
+  color: #DCC5B2;
+  font-size: 1.2rem;
+}
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: #bbb;
+}
+
+/* Animation classes */
+.animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footerSection {
+    text-align: center;
+  }
+
+  .socialLinks {
+    justify-content: center;
+  }
+
+  .contactInfo li {
+    justify-content: center;
+  }
+}
+.socialLinks a {
+    color: inherit;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: #fff;
+}
