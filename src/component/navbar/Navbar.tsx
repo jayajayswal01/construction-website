@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
+import LogoImage from "../../assets/logo.jpg";
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +16,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
         <Link href="/" className={styles.logo}>
-          Achintya Enterprises
+          <Image className={styles.LogoImage} src={LogoImage} alt="Logo" width={50} height={50} />
         </Link>
 
         <button 
