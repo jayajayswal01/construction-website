@@ -16,6 +16,14 @@
   margin-bottom: 3rem;
 }
 
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
 .footerSection h3 {
   color: #DCC5B2;
   font-size: 1.5rem;
@@ -141,4 +149,9 @@
 
 .socialLinks a:hover {
     color: #fff;
+}
+
+.logoImage{
+  width: 120px;
+  height: auto;
 }

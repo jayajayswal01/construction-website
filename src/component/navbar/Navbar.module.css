@@ -25,6 +25,10 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
+.LogoImage {
+  width: 50px;
+  height: auto;
+}
 
 .logo:hover {
   color: #DCC5B2;

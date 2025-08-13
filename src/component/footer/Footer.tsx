@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LogoImage from "../../assets/logo.jpg";
 
 const Footer = () => {
   useEffect(() => {
@@ -30,7 +31,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.footerContent}>
           <div className={`${styles.footerSection} ${styles.animate}`}>
-            <h3>Achintya Enterprises</h3>
+           <Image className={styles.logoImage} src={LogoImage} alt="Logo"/>
             <p>Building dreams into reality with quality and innovation since 2010.</p>
              <div className={styles.socialLinks}>
               <a href="#" aria-label="Facebook"><FacebookIcon /></a>
