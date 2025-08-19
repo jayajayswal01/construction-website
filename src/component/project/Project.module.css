@@ -32,9 +32,9 @@
 
 .categoryBtn {
   padding: 0.8rem 1.5rem;
-  border: 2px solid #DCC5B2;
+  border: 2px solid #ff6000;
   background: transparent;
-  color: #DCC5B2;
+  color: #ff6000;
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -43,7 +43,7 @@
 
 .categoryBtn:hover,
 .categoryBtn.active {
-  background-color: #DCC5B2;
+  background-color: #ff6000;
   color: white;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .viewProject {
-  background-color: #DCC5B2;
+  background-color: #ff6000;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;

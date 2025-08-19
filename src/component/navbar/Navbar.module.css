@@ -21,7 +21,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #DCC5B2;
+  color: #ff6000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -31,7 +31,7 @@
 }
 
 .logo:hover {
-  color: #DCC5B2;
+  color: #ff6000;
 }
 
 .navLinks {
@@ -49,7 +49,7 @@
 }
 
 .navLinks a:hover {
-  color: #DCC5B2;
+  color: #ff6000;
 }
 
 .navLinks a::after {
@@ -59,7 +59,7 @@
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #DCC5B2;
+  background-color: #ff6000;
   transition: width 0.3s ease;
 }
 

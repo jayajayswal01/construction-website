@@ -43,7 +43,7 @@
 }
 
 .quoteIcon {
-  color: #DCC5B2;
+  color: #ff6000;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -100,7 +100,7 @@
 }
 
 .navButton {
-  background: #DCC5B2;
+  background: #ff6000;
   color: white;
   border: none;
   width: 40px;
@@ -116,7 +116,7 @@
 }
 
 .navButton:hover {
-  background: #DCC5B2;
+  background: #ff6000;
   transform: scale(1.1);
 }
 
@@ -146,7 +146,7 @@
 }
 
 .indicator.active {
-  background: #DCC5B2;
+  background: #ff6000;
   transform: scale(1.2);
 }
 
