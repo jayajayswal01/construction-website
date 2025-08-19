@@ -56,7 +56,7 @@
 }
 
 .serviceCard:hover .iconWrapper {
-  background-color: #D9A299;
+  background-color: #ffac7a;
 }
 
 .serviceCard h3 {
@@ -83,7 +83,7 @@
 }
 
 .learnMore:hover {
-  background-color: #D9A299;
+  background-color: #ffac7a;
   color: white;
 }
 

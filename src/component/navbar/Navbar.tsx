@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
-import LogoImage from "../../assets/logo.jpg";
 import Image from 'next/image';
+import LogoImage from '../../assets/logo2.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
